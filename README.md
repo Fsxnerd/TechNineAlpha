@@ -37,7 +37,7 @@ RAT written for Python 3.X
 - Self-Hiding Client
 - Enumerate Domain Users Via LDAP
 
-#### When running the server and a client connects, the first thing that happens is the client looks for a .exe named "TCPClient.exe", if it cannot find that file, such as in the case of running the .py files with idle or command prompt, it will say that the file is not located on the system. This will not impact any of the features of the tool. It is merely a check for the .exe.
+#### When running the server and a client connects, the first thing that happens is the client looks for a .exe named "TCPClient.exe", if it cannot find that file, such as in the case of running the .py files with idle or command prompt, the server will say that the file is not located on the system. This will not impact any of the features of the tool. It is merely a check for the .exe.
 
 ## This Project Is Very Very WIP-Things May Break Or Not Work
 
