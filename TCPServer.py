@@ -70,7 +70,7 @@ def connect():
         command = input("\n>")
         str_xor(command, key)
         enc = str_xor(command, key)
-        print(enc)
+        #print(enc)
         
         if 'exit' in command:
             conn.send('exit'.encode())
