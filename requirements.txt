@@ -1,0 +1,9 @@
+pywin32
+pyHook
+pyautogui
+keyboard
+pycryptodomex
+opencv-python
+urllib3
+idna
+ldap3
