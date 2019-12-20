@@ -39,6 +39,6 @@ RAT written for Python 3.X
 
 #### When running the server and a client connects, the first thing that happens is the client looks for a .exe named "TCPClient.exe", if it cannot find that file, such as in the case of running the .py files with idle or command prompt, it will say that the file is not located on the system. This will not impact any of the features of the tool. It is merely a check for the .exe.
 
-## This Project Is Very Very WIP
+## This Project Is Very Very WIP-Things May Break Or Not Work
 
 If you would like to contribute to this project, I would appreciate it very much. This is my first foray into an IT security project in python. Feel free to clone the repo and play around with the server and client. To date, it has only been tested on the same machine(localhost) so some features may be broken when working on a network setup. As of now this server only accepts one client and I will keep it that way until this version is fully working. If you would like to add any features, or fix any broken ones, submit a pull request and I will take a look. Thank you all very much and I hope you can learn as much from this project as I have so far. This project will continue to be updated as I learn and grow in my knowledge of Python. As of right now, I consider this project quite ugly as the code is spaghetti-like and there is no class structure, however that will be fixed in future updates.
