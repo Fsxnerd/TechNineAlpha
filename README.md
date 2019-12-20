@@ -12,7 +12,7 @@ RAT written for Python 3.X
        $$ |   $$ |_____ $$ \__/  |$$ |  $$ |$$ |$$$$ | _$$ |_ $$ |$$$$ |$$ |_____ 
        $$ |   $$       |$$    $$/ $$ |  $$ |$$ | $$$ |/ $$   |$$ | $$$ |$$       |
        $$/    $$$$$$$$/  $$$$$$/  $$/   $$/ $$/   $$/ $$$$$$/ $$/   $$/ $$$$$$$$/
-# Remote Administration Tool Project
+# Windows Remote Administration Tool Project
 
 ## Features:
 
