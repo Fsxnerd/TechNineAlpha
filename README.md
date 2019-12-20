@@ -17,7 +17,6 @@ RAT written for Python 3.X
 - Get Location Of Victim
 - Domain Name / PC Name / PC User
 - Domain/Logged On User
-- Steal FireFox Passwords
 - Steal Chrome Passwords
 - Disable Victim UAC
 - Disable Victim AV
