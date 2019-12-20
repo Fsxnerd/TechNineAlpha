@@ -16,6 +16,7 @@ RAT written for Python 3.X
 
 ## Features:
 
+- All commands Are Encrypted
 - Get Location Of Victim
 - Domain Name / PC Name / PC User
 - Domain/Logged On User
